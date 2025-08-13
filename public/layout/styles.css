@@ -540,3 +540,13 @@ body {
     height: 120px;
   }
 }
+a, a:link, a:visited, a:hover, a:active {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
