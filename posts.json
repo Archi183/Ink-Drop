@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Why Notes Are Your Secret Weapon",
+    "content": "Don’t trust your brain to remember every idea, bug fix, or clever solution.\r\nWrite it down. Future you will thank present you.",
+    "image": "https://plus.unsplash.com/premium_photo-1683309567810-4d232ee83d2f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bm90ZXN8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "title": "The “Almost Done” Trap",
+    "content": "Projects have a strange way of stalling at 90% completion. That last 10% feels heavier than the first 90 combined.\r\nThe fix? Break the final steps into smaller wins and celebrate each one.",
+    "image": "/images/default.jpg"
+  },
+  {
+    "title": "When Bugs Teach You More Than Tutorials",
+    "content": "Fixing a bug forces you to dig deeper than you planned.\r\nYou learn systems, you learn patience, and you learn that the bug was your fault 90% of the time.",
+    "image": "/images/default.jpg"
+  },
+  {
+    "title": "One Tiny Win a Day",
+    "content": "If you improve by just 1% every day, you’ll be 37 times better by the end of the year.\r\nIt’s math, but it feels like magic.",
+    "image": "https://plus.unsplash.com/premium_photo-1661501633493-78a06c25a50c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c21hbGwlMjB3aW58ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "title": "Coffee vs. Code",
+    "content": "Some developers run on clean, efficient code. Others run on coffee.\r\nI run on both… and questionable amounts of late-night debugging sessions.",
+    "image": "https://images.unsplash.com/photo-1639755507638-e34150b56db2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwYW5kJTIwY29kZXxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "title": "The Magic of First Drafts",
+    "content": "The first draft isn’t supposed to be perfect—it’s supposed to exist.\r\nOnce you have something on the page, you can shape it, trim it, or rebuild it.\r\nBut you can’t edit a blank screen.",
+    "image": "/images/default.jpg"
+  },
+  {
+    "title": "Why Learning in Public Changes Everything",
+    "content": "Most people wait until they’re “ready” before sharing their work. The truth? You’ll never feel 100% ready—and that’s exactly why learning in public works.\r\n\r\nWhen you share what you’re learning as you learn it—whether it’s coding, design, writing, or anything else—you invite feedback, build connections, and stay accountable. Your progress becomes visible, and so does your growth.\r\n\r\nYou don’t need to be an expert to help someone; beginners often explain things in ways other beginners understand best. Plus, the act of writing or speaking about what you’ve learned reinforces the knowledge in your own mind.\r\n\r\nSo start posting snippets, mistakes, wins, and lessons. Your future self will thank you—and someone else might just find your journey exactly when they need it.",
+    "image": "https://images.unsplash.com/photo-1541802802036-1d572ba70147?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "title": "The 5-Minute Rule for Beating Procrastination",
+    "content": "Sometimes the hardest part of any task is simply starting it. That’s where the 5-Minute Rule comes in: promise yourself you’ll work on something for just five minutes.\r\n\r\nFive minutes is small enough to feel painless, but once you’ve started, momentum kicks in. Most of the time, you’ll find yourself continuing far beyond the initial five.\r\n\r\nThis trick works because it bypasses the brain’s resistance to “big” tasks. Instead of thinking I need to finish this huge project, you think I only need to do five minutes. That reframing is often enough to get you moving.\r\n\r\nNext time you feel stuck, set a timer for five minutes and take the first step—you’ll be surprised how often you keep going.\r\n\r\n",
+    "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWVkaXRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "title": "How I Built My First Blog App",
+    "content": "This was my very first project with Express and EJS. I learned how to create routes, render pages, and handle form submissions. It felt amazing to see my ideas come alive in the browser.",
+    "image": "/images/How1stApp.jpg"
+  },
+  {
+    "title": "Things I Wish I Knew Before Learning Node.js",
+    "content": "Node.js is powerful, but there were surprises—like asynchronous behavior and the event loop. This post covers what tripped me up and how I overcame it.",
+    "image": "/images/NoobMistake.jpg"
+  },
+  {
+    "title": "Why I Started Coding",
+    "content": "Coding gave me power. I was tired of just consuming the internet—I wanted to build it. That’s when I decided to dive into JavaScript, and I haven’t looked back since.",
+    "image": "/images/Started.jpg"
+  },
+  {
+    "title": "Overcoming Tutorial Hell",
+    "content": "It’s easy to get stuck watching tutorials forever. I broke the cycle by building small projects—this blog is proof! Build > Watch.",
+    "image": "/images/Stuck.jpg"
+  },
+  {
+    "title": "Express.js in 5 Minutes",
+    "content": "Express makes backend development simple and clean. With just a few lines, you can set up routes, render views, and serve files. Here’s how I did it.",
+    "image": "/images/Quick.jpg"
+  },
+  {
+    "title": "My Favorite Developer Tools",
+    "content": "VS Code, Prettier, Git, Postman, and Chrome DevTools have become my go-to tools. I talk about how I use them efficiently during daily development.",
+    "image": "/images/Favourite.jpg"
+  },
+  {
+    "title": "Small Wins, Big Motivation",
+    "content": "Every time I get a route to work or fix a bug, it fuels me. If you're learning to code, celebrate the small stuff—it compounds into big momentum.",
+    "image": "/images/Motivate.jpg"
+  },
+  {
+    "title": "Dark Mode: A Dev’s Necessity",
+    "content": "Dark mode isn’t just trendy—it reduces eye strain and looks great. I'll add a toggle button to my blog and store the preference using localStorage.",
+    "image": "/images/DarkMode.jpg"
+  },
+  {
+    "title": "Dealing with Bugs Without Losing It",
+    "content": "Bugs can drive you crazy. I’ve learned to breathe, log things clearly, and isolate problems step by step. No bug is invincible if you stay calm.",
+    "image": "/images/Bugs.jpg"
+  },
+  {
+    "title": "What I Want to Build Next",
+    "content": "After this blog app, I’m thinking about a notes app, or maybe a mini social feed with likes and comments. The possibilities feel endless—and that’s exciting.",
+    "image": "/images/Next.jpg"
+  },
+  {
+    "title": "Why Side Projects Are the Secret Weapon for Developers",
+    "content": "Side projects are more than just a fun distraction—they’re a playground for learning, experimenting, and failing safely.\r\nWhen you build something outside your day job or studies, you remove the pressure to make it perfect. That freedom often sparks your most creative and innovative ideas.\r\n\r\nWhether it’s a small script that automates a boring task or a full-fledged web app, every side project adds a new tool to your developer toolbox. And the best part? You can showcase them on your portfolio to stand out in the job market.\r\n\r\nSo the next time an idea pops into your head, don’t dismiss it. Start small, break it into steps, and watch it grow.",
+    "image": "https://images.unsplash.com/photo-1515575550379-b923bc71669b?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
