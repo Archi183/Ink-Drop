@@ -2,7 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 import { getPosts, getFeatured, addPost } from "./functions.js";
 import { fileURLToPath } from "url";
-import { dirname } from "path";
+import path, { dirname } from "path";
 import { get } from "http";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -65,6 +65,10 @@ app.post("/compose", (req, res) => {
   };
   addPost(post);
   res.redirect("/all-posts?success=true");
+});
+
+app.get("/posts.json", (req, res) => {
+  res.sendFile(path.join(path.resolve(), "posts.json"));
 });
 
 app.listen(port, () => {

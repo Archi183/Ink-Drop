@@ -1,5 +1,10 @@
 [
   {
+    "title": "The Day My Image Disappeared",
+    "content": "Sometimes in life, things break — and sometimes that “thing” is your blog image.\r\nToday’s post is a tribute to all the missing images out there, silently 404-ing in the digital void.\r\nLet’s see if my blog can handle this little vanishing act without panicking.",
+    "image": "https://example.com/this-image-does-not-exist.jpg"
+  },
+  {
     "title": "Why Notes Are Your Secret Weapon",
     "content": "Don’t trust your brain to remember every idea, bug fix, or clever solution.\r\nWrite it down. Future you will thank present you.",
     "image": "https://plus.unsplash.com/premium_photo-1683309567810-4d232ee83d2f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bm90ZXN8ZW58MHx8MHx8fDA%3D"

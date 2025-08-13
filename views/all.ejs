@@ -3,7 +3,11 @@
 <div class="featured-div">
   <% let i = 1; %> <% posts.forEach(function(post) { %>
   <div id="f<%= i++ %>" class="featured-post all-div">
-    <img src="<%= post.image %>" alt="Blog image" />
+    <img
+      src="<%= post.image %>"
+      alt="Blog image"
+      onerror="this.onerror=null;this.src='/images/default.jpg';"
+    />
     <h3><%= post.title %></h3>
     <p class="post-content"><%= post.content %></p>
   </div>
