@@ -1,7 +1,11 @@
 <%- include("./partials/header.ejs") %>
 <div class="selected-div">
   <div class="selected-post">
-    <img src="<%= post.image %>" alt="Blog image" />
+        <img
+      src="<%= post.image %>"
+      alt="Blog image"
+      onerror="this.onerror=null;this.src='/images/default.jpg';"
+    />
     <h3><%= post.title %></h3>
     <p><%= post.content %></p>
   </div>
