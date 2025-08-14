@@ -9,18 +9,19 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 const port = 3000;
 const featured = getFeatured();
-const posts = getPosts();
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
+  const posts = getPosts();
   res.render("./home.ejs", {
     posts: posts,
     featured: featured,
   });
 });
 app.get("/compose", (req, res) => {
+  const posts = getPosts();
   res.render("./compose.ejs", {
     posts: posts,
     featured: featured,
@@ -58,6 +59,7 @@ app.get("/all-posts", (req, res) => {
 });
 
 app.get("/posts/:id/:slug", (req, res) => {
+  const posts = getPosts();
   const rawId = req.params.id;
   const id = parseInt(rawId.replace("f", "")) - 1;
 
