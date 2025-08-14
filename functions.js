@@ -39,7 +39,7 @@ export function getFeatured() {
     {
       title: "How to Use This Blog",
       content:
-        "To read posts, just scroll through the homepage.\nWant to read a post in full? Click the title!\nIf you're seeing the 'Compose' button, that means you can add more posts — feel free to add your own post and test how things work. This is still a solo project right now, but ideas are welcome!",
+        "To read posts, just scroll through the homepage.\nWant to read a post in full? Click read more!\nIf you're seeing the 'Compose' button, that means you can add more posts — feel free to add your own post and test how things work. This is still a solo project right now, but ideas are welcome!",
       image: "/images/HowToUse.jpg", // Placeholder for an image
     },
     {

@@ -1,14 +1,24 @@
 <%- include("./partials/header.ejs") %>
 <h1 class="featured-title">All posts...</h1>
 <div class="featured-div">
-  <% let i = 1; %> <% posts.forEach(function(post) { %>
-  <div id="f<%= i++ %>" class="featured-post all-div">
+  <% posts.forEach(function(post, idx) { %>
+  <div id="f<%= startIndex + idx + 1 %>" class="featured-post all-div">
     <img
       loading="lazy"
+      id="blog-img"
       src="<%= post.image %>"
       alt="Blog image"
       onerror="this.onerror=null;this.src='/images/default.jpg';"
     />
+    <script>
+      const img = document.getElementById("blog-img");
+      let loaded = false;
+
+      img.onload = () => (loaded = true);
+      setTimeout(() => {
+        if (!loaded) img.src = "/images/default.jpg";
+      }, 1500); // fallback after 1.5s if still not loaded
+    </script>
     <h3><%= post.title %></h3>
     <p class="post-content"><%= post.content %></p>
   </div>
