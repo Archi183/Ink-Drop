@@ -4,6 +4,7 @@
   <% let i = 1; %> <% posts.forEach(function(post) { %>
   <div id="f<%= i++ %>" class="featured-post all-div">
     <img
+      loading="lazy"
       src="<%= post.image %>"
       alt="Blog image"
       onerror="this.onerror=null;this.src='/images/default.jpg';"
@@ -26,6 +27,33 @@
     </div>
   </div>
   <% }) %>
+</div>
+<div class="container">
+  <nav aria-label="Page navigation example" class="pagination_mid">
+    <ul class="pagination">
+      <% let prev_page; %> <% if (currentPage != 1) { %>
+      <li class="page-item">
+        <a class="page-link" href="/all-posts?page=1" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <% } %> <% for(let p = 1; p <= totalPages; p++) { %>
+      <li class="page-item <%= p === currentPage ? 'active' : '' %>">
+        <a class="page-link" href="/all-posts?page=<%= p %>"> <%= p %> </a>
+      </li>
+      <% } %> <% if (currentPage != totalPages) { %>
+      <li class="page-item">
+        <a
+          class="page-link"
+          href="/all-posts?page=<%= totalPages %>"
+          aria-label="Next"
+        >
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+      <% } %>
+    </ul>
+  </nav>
 </div>
 
 <% if (success === 'true') { %>

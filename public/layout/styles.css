@@ -311,6 +311,33 @@ body {
   white-space: pre-line;
 }
 
+.pagination_mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Make pagination links black/white */
+.pagination .page-link {
+  color: black; /* normal text color */
+  background-color: white; /* normal background */
+  border: 1px solid black; /* optional for contrast */
+}
+
+/* On hover */
+.pagination .page-link:hover {
+  color: white;
+  background-color: black;
+}
+
+/* Active page */
+.pagination .active .page-link {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+
 @media screen and (min-width: 769px) and (max-width: 1180px) {
   .selected-post img {
     height: 200px;

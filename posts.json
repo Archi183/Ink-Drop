@@ -1,7 +1,17 @@
 [
   {
+    "title": "Why Learning in Public Changes Everything",
+    "content": "Most people wait until they’re “ready” before sharing their work. The truth? You’ll never feel 100% ready—and that’s exactly why learning in public works.\r\n\r\nWhen you share what you’re learning as you learn it—whether it’s coding, design, writing, or anything else—you invite feedback, build connections, and stay accountable. Your progress becomes visible, and so does your growth.\r\n\r\nYou don’t need to be an expert to help someone; beginners often explain things in ways other beginners understand best. Plus, the act of writing or speaking about what you’ve learned reinforces the knowledge in your own mind.\r\n\r\nSo start posting snippets, mistakes, wins, and lessons. Your future self will thank you—and someone else might just find your journey exactly when they need it.",
+    "image": "https://images.unsplash.com/photo-1541802802036-1d572ba70147?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "title": "The 5-Minute Rule for Beating Procrastination",
+    "content": "Sometimes the hardest part of any task is simply starting it. That’s where the 5-Minute Rule comes in: promise yourself you’ll work on something for just five minutes.\r\n\r\nFive minutes is small enough to feel painless, but once you’ve started, momentum kicks in. Most of the time, you’ll find yourself continuing far beyond the initial five.\r\n\r\nThis trick works because it bypasses the brain’s resistance to “big” tasks. Instead of thinking I need to finish this huge project, you think I only need to do five minutes. That reframing is often enough to get you moving.\r\n\r\nNext time you feel stuck, set a timer for five minutes and take the first step—you’ll be surprised how often you keep going.\r\n\r\n",
+    "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWVkaXRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
     "title": "Clouds ",
-    "content": "Our mind is like a cloudy sky: in essence clear and pure, but overcast by clouds of delusions. Just as the thickest clouds can disperse, so, too, even the heaviest delusions can be removed from our mind.<3",
+    "content": "Our mind is like a cloudy sky: in essence clear and pure, but overcast by clouds of delusions. Just as the thickest clouds can disperse, so, too, even the heaviest delusions can be removed from our mind.\u003C3",
     "image": "/images/default.jpg"
   },
   {
@@ -40,16 +50,6 @@
     "image": "/images/default.jpg"
   },
   {
-    "title": "Why Learning in Public Changes Everything",
-    "content": "Most people wait until they’re “ready” before sharing their work. The truth? You’ll never feel 100% ready—and that’s exactly why learning in public works.\r\n\r\nWhen you share what you’re learning as you learn it—whether it’s coding, design, writing, or anything else—you invite feedback, build connections, and stay accountable. Your progress becomes visible, and so does your growth.\r\n\r\nYou don’t need to be an expert to help someone; beginners often explain things in ways other beginners understand best. Plus, the act of writing or speaking about what you’ve learned reinforces the knowledge in your own mind.\r\n\r\nSo start posting snippets, mistakes, wins, and lessons. Your future self will thank you—and someone else might just find your journey exactly when they need it.",
-    "image": "https://images.unsplash.com/photo-1541802802036-1d572ba70147?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-  },
-  {
-    "title": "The 5-Minute Rule for Beating Procrastination",
-    "content": "Sometimes the hardest part of any task is simply starting it. That’s where the 5-Minute Rule comes in: promise yourself you’ll work on something for just five minutes.\r\n\r\nFive minutes is small enough to feel painless, but once you’ve started, momentum kicks in. Most of the time, you’ll find yourself continuing far beyond the initial five.\r\n\r\nThis trick works because it bypasses the brain’s resistance to “big” tasks. Instead of thinking I need to finish this huge project, you think I only need to do five minutes. That reframing is often enough to get you moving.\r\n\r\nNext time you feel stuck, set a timer for five minutes and take the first step—you’ll be surprised how often you keep going.\r\n\r\n",
-    "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWVkaXRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
-  },
-  {
     "title": "How I Built My First Blog App",
     "content": "This was my very first project with Express and EJS. I learned how to create routes, render pages, and handle form submissions. It felt amazing to see my ideas come alive in the browser.",
     "image": "/images/How1stApp.jpg"
@@ -66,7 +66,7 @@
   },
   {
     "title": "Overcoming Tutorial Hell",
-    "content": "It’s easy to get stuck watching tutorials forever. I broke the cycle by building small projects—this blog is proof! Build > Watch.",
+    "content": "It’s easy to get stuck watching tutorials forever. I broke the cycle by building small projects—this blog is proof! Build \u003E Watch.",
     "image": "/images/Stuck.jpg"
   },
   {

@@ -9,33 +9,57 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 const port = 3000;
 const featured = getFeatured();
+const posts = getPosts();
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
   res.render("./home.ejs", {
-    posts: getPosts(),
+    posts: posts,
     featured: featured,
   });
 });
 app.get("/compose", (req, res) => {
   res.render("./compose.ejs", {
-    posts: getPosts(),
+    posts: posts,
     featured: featured,
   });
 });
 
 app.get("/all-posts", (req, res) => {
-  res.render("./all.ejs", { posts: getPosts(), success: req.query.success });
-  console.log(req.query);
+  const postsPerPage = 5;
+
+  // sanitize page param
+  const pageParam = parseInt(req.query.page, 10);
+  const page = Number.isNaN(pageParam) || pageParam < 1 ? 1 : pageParam;
+
+  // get all posts from your JSON/functions.js
+  const allPosts = getPosts();
+  const totalPosts = allPosts.length;
+  const totalPages = Math.max(1, Math.ceil(totalPosts / postsPerPage));
+
+  // clamp page to range
+  const currentPage = Math.min(page, totalPages);
+
+  const startIndex = (currentPage - 1) * postsPerPage;
+  const endIndex = startIndex + postsPerPage;
+
+  // only send this page's posts to the template
+  const paginatedPosts = allPosts.slice(startIndex, endIndex);
+
+  res.render("./all.ejs", {
+    posts: paginatedPosts,
+    success: req.query.success,
+    currentPage,
+    totalPages,
+    startIndex, // pass this so EJS can compute a global id
+  });
 });
 
 app.get("/posts/:id/:slug", (req, res) => {
   const rawId = req.params.id;
   const id = parseInt(rawId.replace("f", "")) - 1;
-
-  const posts = getPosts(); // fetch fresh data
 
   if (id >= 0 && id < posts.length) {
     const post = posts[id];
@@ -48,7 +72,6 @@ app.get("/:id/:slug", (req, res) => {
   const rawId = req.params.id;
   const id = parseInt(rawId.replace("f", "")) - 1;
 
-  const posts = getPosts();
   if (id >= 0 && id < posts.length) {
     const feat = featured[id];
     res.render("post.ejs", { post: feat });
