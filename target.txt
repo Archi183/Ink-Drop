@@ -1,4 +1,3 @@
-- Add pagination
 - replace alert with message box
 - Make the like btn black on click.
 - Word limit per post.
