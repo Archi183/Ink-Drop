@@ -2,6 +2,8 @@
 Ink Drop is a simple yet powerful blog web application where you can create, read, and manage posts.
 Built with Node.js, Express, and EJS, it focuses on speed, readability, and a clean interface.
 
+Link: https://ink-drop-app.onrender.com/
+
 ✨ Features
 📝 Create Posts – Add blog posts with a title and content.
 
